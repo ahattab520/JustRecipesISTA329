@@ -1,0 +1,70 @@
+body {
+    background-color: #3A5683;
+}
+
+form {
+   font: 16px Arial;
+   font-weight: bold;
+   background-color: #eee;
+   padding: 10px;
+   max-width: 600px;
+   border-radius: 30px;
+   margin: auto auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-weight: lighter;
+}
+
+.required {
+    color :red;
+}
+
+div {
+   margin-bottom: 10px;
+}
+
+label {
+   display: block;
+   text-align: left;
+}
+
+input[type=submit] {
+   width: 300px;
+   background-color: #3A5683;
+   color: white;
+   padding: 15px;
+   margin: 10px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text], input[type=url], input[type=file], input[type="date"] {
+   box-sizing: border-box;
+   width: 300px;
+   padding: 10px;
+   border: 1px solid #aaa;
+   border-radius: 4px;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+input:invalid, textarea:invalid {
+   border: 2px solid red;
+}

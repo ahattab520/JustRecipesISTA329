@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Request Recipe</title>
+    <link rel="stylesheet" href="rrstyles.css">
+    <script src="rrscript.js" defer></script>
+</head>
+<header>
+    <h1>To be added</h1>
+</header>
+<body>
+    <!-- Note: This form doesn't actually send data anywhere, since we don't have a server set up -->
+    <form action="http://localhost:3000/submit" method="POST" enctype="multipart/form-data" id="rrform">
+
+        <h2>Request a recipe to be added to the webpage</h2>
+
+        <p> 
+            Fields with <span class="required">*</span> are required.
+        </p>
+
+        <div>
+            <label for="recipeName">Recipe name: <span class="required">*</span></label>
+            <input type="text" name="fullName" id="fullName" required>
+        </div>
+
+        <div>
+            <label for="rrlink">Link (Optional):</label>
+            <input type="url" name="rrlink" id="rrlink" placeholder="Ex: example.com">
+        </div>
+
+        <div>
+            <label for="ingredients">Ingredients: <span class="required">*</span></label>
+            <textarea name="ingredients" id="ingredients" rows="10" required></textarea>
+        </div>
+
+        <div>
+            <label for="directions">Directions: <span class="required">*</span></label>
+            <textarea name="directions" id="directions" rows="10" required></textarea>
+        </div>
+
+        <div>
+            <label for="picture">Picture (Optional):</label>
+            <input type="file" name="picture" id="picture">
+        </div>
+
+        <div>
+            <label for="credit">Recipe Creator: <span class="required">*</span></label>
+            <input type="text" name="credit" id="credit" placeholder="Ex: Self, Unknown" required>
+        </div>
+
+        <div>
+            <label for="rrdate">Date of Recipe Creation</label>
+            <input type="date" name="rrdate" id="rrdate">
+        </div>
+
+        <div class = "submit">
+            <input type="submit" value="Request">
+        </div>
+    </form>
+   
+</body>
+<footer>
+    <h4>To be added</h4>
+</footer>
+</html>
