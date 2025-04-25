@@ -52,6 +52,12 @@ p {
     color: red;
 }
 
+.footer-logo {
+    height: 1em;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
 form {
     font-weight: bold;
     background-color: #eee;
