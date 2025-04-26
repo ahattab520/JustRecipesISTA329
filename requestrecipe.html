@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hello and Welcome to Just Recipes! We are a recipe website providing Just Recipes, and none of the fluff!">
-    <meta name="keywords" content="recipes, cooking, food, easy meals, dinner ideas, homemade dishes">
+    <meta name="keywords" content="recipes, cooking, food, cheap, healthy, vegan, protein, cultural, form">
     <meta name="author" content="Group 6: AJ, Ali, Jack, Tommy">
 
     <title>Request Recipe</title>
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="main.css">
     <script src="rrscript.js" defer></script>
 </head>
+<body>
 <header>
     <button class="home-button" onclick="window.location.href='Main_Website.html'">
         Just Recipes
@@ -25,7 +26,6 @@
         Request Recipe
     </button>
 </header>
-<body>
     <!-- Note: This form doesn't actually send data anywhere, since we don't have a server set up -->
     <form action="http://localhost:3000/submit" method="POST" enctype="multipart/form-data" id="rrform">
 
@@ -37,7 +37,7 @@
 
         <div>
             <label for="recipeName">Recipe name: <span class="required">*</span></label>
-            <input type="text" name="fullName" id="fullName" required>
+            <input type="text" name="recipeName" id="recipeName" required>
         </div>
 
         <div>
@@ -74,9 +74,9 @@
             <input type="submit" value="Request">
         </div>
     </form>
-   
-</body>
 <footer>
     <h4>To be added</h4>
 </footer>
+</body>
+
 </html>
