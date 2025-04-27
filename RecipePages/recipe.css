@@ -24,6 +24,12 @@ img {
      margin: auto;
 }
 
+video {
+     display: block;
+     text-align: center;
+     margin: auto;
+}
+
 .Ingredients ul{
      list-style: none;
 }
